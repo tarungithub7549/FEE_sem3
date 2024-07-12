@@ -1,0 +1,18 @@
+hr {
+    width: 500px;
+    margin-left: 0px;
+}
+#box1{
+    background-color: lightcoral;
+    border: 10px solid red;
+    width: 500px;
+    padding: 50px;
+}
+
+#box2{
+    box-sizing: border-box;           /*we also have "content-box" like "border-box" for making size of box model fix to that of content.*/
+    background-color: lightcoral;
+    border: 10px solid red;
+    width: 500px;
+    padding: 50px;
+}
