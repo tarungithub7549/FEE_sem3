@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.back_image{
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: -10;
+    position: fixed;
+}
+
+.form_frame {
+    width: 285px;
+    height: 560px;
+    background-color: ghostwhite;
+    border: 2px solid rgb(7, 7, 7);
+    float: right;
+    margin-right: 190px;
+    margin-top: 90px;
+    position: relative;
+}
+
+.main_logo {
+    padding: 10px 20px 0px 20px;
+
+}
+
+.form1 {
+    padding-left: 10px;
+}
+
+.form1 td {
+    padding: 0px 10px 10px 10px;
+}
+
+.form input:hover {
+    border: #3f3dc0;
+    text-decoration: none;
+}
+
+.check {
+    width: 15px;
+    padding: 20px;
+}
+
+.form1 select,
+input {
+    width: 220px;
+    height: 20px;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(196, 45, 45);
+    color: ghostwhite;
+    font-size: 15px;
+}
+
+.click {
+    color: #3f3dc0;
+}
+
+.play,
+.apple {
+    display: inline;
+}
+
+.two_image {
+    position: relative;
+    left: 80px;
+}

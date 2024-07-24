@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fix-head{
+    border: 2px solid black;
+}
+.logo{
+    padding: 1rem 3rem;
+    float: left;
+}
+.icon{
+    padding: 1rem 5rem;
+    float: left;
+}
+.button{
+    background-color: rgb(86, 29, 243);
+    border-radius: 30%;
+}
+.head-p{
+    float: right;
+}
+.link a{
+    float: right;
+    background-color: rgb(86, 29, 243);
+    border-radius: 30%;
+}
