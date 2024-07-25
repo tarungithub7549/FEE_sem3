@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .trans{
     border: 2px solid #f00;
     width: 300px;
@@ -34,4 +35,42 @@
    border-radius: 50%;
    transition: width 20s;
     display: block;
+=======
+.trans{
+    border: 2px solid #f00;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+
+}
+
+.trans:hover{
+    background-color: green;
+    border-radius: 50%;
+    transition: width 2s;
+    transition: height 2s;
+}
+
+.main-container{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+.small-container{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    background-color: red;
+    transition: width 2s;
+    transition: height 2s;
+    margin: 10px;
+
+}
+.main-container:hover .small-container{
+   background-color: greenyellow;
+   float: right;
+   border-radius: 50%;
+   transition: width 20s;
+    display: block;
+>>>>>>> 300ef3d46fe793685bb93c72bf60d989da0176e0
 }

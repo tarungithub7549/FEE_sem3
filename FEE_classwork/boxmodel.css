@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1{
     text-align: center;
 }
@@ -30,4 +31,38 @@ h2{
 h3{
     text-shadow: 1px 8px 5px red;
     color: transparent;
+=======
+h1{
+    text-align: center;
+}
+/* h2{
+    text-align: left;
+}
+h3{
+    text-align: right;
+}
+h4{
+    text-align: justify;
+} */
+
+.inherit{
+    color: red;
+}
+p{
+    text-align: inherit;   /* by using inherit 'p' can the style of his parent.*/
+}
+h1{
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    text-decoration-style: wavy;
+}
+h2{
+    text-indent: 20px;
+    text-transform: uppercase;
+}
+h3{
+    text-shadow: 1px 8px 5px red;
+    color: transparent;
+>>>>>>> 300ef3d46fe793685bb93c72bf60d989da0176e0
 }
