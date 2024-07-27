@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+}
+
+body {
+    font-size: 62.5%;
+}
+
+/* ######################### UTILITY CLASSES ######################### */
+.main-heading {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.secondary-heading {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+p{
+    font-size: 1rem;
+    color: rgb(54, 54, 54);
+    margin-top: 0.5rem;
+    line-height: 1.6;
+    word-spacing: 2px;
+}
+li {
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: rgb(54, 54, 54);
+    word-spacing: 2px;
+}
+
+/* ########################### HEADING ########################### */
+header {
+    margin: 20px 10px;
+    padding: 1rem 8rem;
+    border-radius: 10px;
+    background-color: rgb(182, 175, 175);
+}
+
+.myimage {
+    display: inline;
+    float: left;
+}
+
+.myimage img {
+    width: 8rem;
+    height: 11rem;
+    border: 4px solid rgb(56, 55, 55);
+}
+
+.heading-content {
+    display: inline;
+    position: absolute;
+    float: right;
+    left: 25%;
+}
+
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.heading-content li i{
+    display: inline;
+}
+.heading-content li p{
+    display: inline;
+}
+/* ########################### SECTOION STYLING ########################### */
+section{
+    padding: 1rem 8rem;
+}
+section div{
+    margin-bottom: 1rem;
+}
+/* profile */
+h2{
+    background-color: rgb(233, 196, 196);
+}
+/* education */
+
+/* skills */
+.skills ul{
+    display: block;
+    /* list-style: decimal-leading-zero; */
+}
+.skills ul li{
+    display: inline-table;
+    padding: 0.2rem 4rem;
+    list-style: disc;
+}
